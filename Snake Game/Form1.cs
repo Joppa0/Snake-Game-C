@@ -217,6 +217,7 @@ namespace Snake_Game
             bool badSpawn;
             int spawnX, spawnY;
 
+            //Loopen fortsätter tills en ruta hittats som inte innehåller någon del av ormen
             do
             {
                 badSpawn = false;
